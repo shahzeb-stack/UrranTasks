@@ -1,0 +1,257 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.Main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    background-color: #cdcdcd;
+}
+.small-box{
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(231, 231, 231);
+    
+}
+ .small-box h1
+{
+    margin-left: 50px;
+} 
+.Catchublogo{
+    width: 300px;
+    height: 200px;
+    margin-top: 90px;
+    margin-left: 170px;
+}
+.text1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 5px;
+    margin-top: -10px;
+    letter-spacing: 2px;
+    justify-content: center;
+}
+.text2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.topscreen{
+    margin-left: 0px;
+    margin-top: 50px;
+    width: 90%;
+    height: 90vh;
+}
+.buttons{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+justify-content: center;
+}
+.btn1
+{
+    
+    width: 220px;
+    height: auto;
+    margin-left: 20px;
+    margin: 5px;
+    }
+.btn2
+{
+    width: 220px;
+    height: auto;
+    margin-left: 20px;
+    margin: 5px;
+    }
+
+
+
+
+/* section 1 complete */
+
+/* section 2 start */
+
+
+.section2{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(231, 231, 231);
+    display: flex;
+
+}
+
+.image-section{
+    width: 60%;
+    height: 100vh;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+.content-section{
+    width: 50%;
+    margin-right: 100px;
+}
+.Nike{
+    
+    height: 110vh;
+    width: 100%;
+    margin-top: 0px;
+
+}
+
+.content-section h1{
+    text-align: center;
+    letter-spacing: 5px;
+    margin-top: 180px;
+}
+
+.content-section p{
+    text-align: center;
+    font-size: 35px;
+    line-height: 55px;
+    color: #969696;
+    font-family: serif;
+}
+
+
+/* section 3  */
+
+
+.section3{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(231, 231, 231);
+    display: flex;
+
+}
+
+.image-section3{
+    width: 50%;
+    height: 100vh;
+}
+.content-section3{
+    width: 50%;
+    margin-left: 100px;
+}
+.sec-screen{
+    margin-left: 0px;
+    margin-right: 150px;
+    height: 90vh;
+    width: 72%;
+    margin-bottom: 50px;
+}
+
+.content-section3 h1{
+    text-align: center;
+    letter-spacing: 5px;
+    margin-top: 180px;
+}
+
+.content-section3 p{
+    text-align: center;
+    font-size: 34px;
+    line-height: 55px;
+    color: #777575;
+    font-family: serif;
+}
+
+/* section 4 */
+
+.section4{
+    width: 100%;
+    height: 110vh;
+    background-color: rgb(231, 231, 231);
+    display: flex;
+    
+}
+
+.image-section4{
+    width: 40%;
+    height: 100vh;
+}
+.content-section4{
+    width: 50%;
+    height: 100vh;
+    
+}
+.sec-screen4{
+    margin-left: 40px;
+    height: 100vh;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 27%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-section4 h1{
+    text-align: center;
+    letter-spacing: 5px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-section4 p{
+    text-align: center;
+    font-size: 35px;
+    line-height: 55px;
+    margin-left: 100px;
+    color: #1d1c1c;
+    font-family: serif;
+    top: 30%;
+    left: 50%;
+    transform: -50% -50%;
+}
+
+.favicon{
+    width: 100%;
+    color: black;
+    margin-top: 90px;
+    margin-right: 40px;
+    align-items: center;
+    margin-left: 30px;
+}
+
+footer{
+    
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+footer h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+}
+ footer .store-buttons
+{
+    display: flex;
+    flex-flow: row,wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    gap: 1%;
+}
+.store-buttons .AppStore
+{
+    width: 220px;
+    height: auto;
+}
+.store-buttons .GooglePlay
+{
+    width: 220px;
+    height: auto;
+}
+footer p{
+    font-size: 20px;
+    top: 0%;
+}
+footer a{
+color: rgb(96, 96, 247);
+font-size: 25px;
+}

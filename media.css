@@ -1,0 +1,146 @@
+@media screen and (min-width:266px)  and (max-width:433px)
+{
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    .Main {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        display: flex;
+        flex-flow: column wrap;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .small-box {
+        width: 100%;
+        height: auto;
+    text-wrap: nowrap;
+
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Catchublogo {
+        width: 100%;
+      margin-left: 0px;  
+    }
+
+    .text1{
+    font-size: 10px;
+    vertical-align: middle;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%; /* Ensure it takes the full width */
+    padding: 0; /* Remove unnecessary padding */
+    margin: 0 auto; /* Centers block-level elements */
+}
+.text2{
+    font-size: 10px;
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%; /* Ensure it takes the full width */
+    padding: 0; /* Remove unnecessary padding */
+    margin: 0 auto; /* Centers block-level elements */
+}
+
+
+
+
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        flex-flow: column,wrap;
+    }
+
+    .btn1,
+    .btn2 {
+        width: 180px;
+        margin: 10px 0;
+    }
+
+    .topscreen {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .section2,
+    .section3,
+    .section4 {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .image-section,
+    .image-section3,
+    .image-section4 {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .Nike,
+    .sec-screen,
+    .sec-screen4 {
+        width: 100%;
+        height: auto;
+    }
+
+    .content-section,
+    .content-section3,
+    .content-section4 {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .content-section h1,
+    .content-section3 h1,
+    .content-section4 h1 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .content-section p,
+    .content-section3 p,
+    .content-section4 p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .favicon {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    footer {
+        height: auto;
+        padding: 20px;
+    }
+
+    footer .store-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .AppStore,
+    .GooglePlay {
+        width: 180px;
+    }
+
+    footer p {
+        font-size: 16px;
+    }
+} 

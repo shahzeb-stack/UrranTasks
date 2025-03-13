@@ -1,0 +1,136 @@
+
+
+/* General Styles */
+body {
+
+    background-color: #f3e9e9;
+    margin: 0;
+    padding: 0;
+display: flex;
+flex-direction: column;
+    height: 100vh;
+}
+header{
+    top:0%;
+    margin-top: 0%;
+    padding: 30px;
+}
+.Maincontainer
+{
+    background-color: #7d2323;
+    display: flex;
+    flex-direction: row;
+    height: auto;   
+    width: 100%;
+
+}
+/* Container */
+.submission{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    background-color: #7d2323;
+    text-wrap: wrap;
+    border-radius: 10px;
+    text-align: center;
+    text-indent: 0px;
+}
+
+/* Logo */
+.logo {
+    width: 100px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+/* Form Styling */
+.form-container {
+
+    height:auto;
+    width: 50%;
+}
+
+h1 {
+    font-size: 70px;
+    font-weight: bolder;
+    color: white;
+    margin: 0px;
+}
+
+.info-text {
+    font-size: 13px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.deadline {
+    font-size: 28px;
+    font-weight: bold;
+    align-self: flex-start;
+    text-indent: 0%;
+}
+
+input, textarea {
+    width: 90%;
+    padding: 4px;
+    margin-top: 10px;
+    border: none;
+    font-size: 16px;
+}
+
+input {
+    height: 40px;
+    width: 90%;
+    max-width: 90%;
+}
+h2
+{
+    font-size: 30px;
+}
+/* Checkboxes */
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    
+}
+ textarea
+ {
+    width: 90%;
+    max-width: 90%;
+    border: 2px  solid white;
+    background-color: transparent;
+ }
+ textarea::placeholder
+ {
+    color: white;
+    opacity: 1;
+ }
+/* Button */
+button {
+    width: 85%;
+    background-color: white;
+    color: #7d2323;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin:20px;
+margin-left: 0px;
+}
+
+button:hover {
+    background-color: #a5a7a0;
+}
+button::before{
+    content :"\2713";
+}
